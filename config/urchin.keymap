@@ -83,10 +83,10 @@
 		default_layer {
 			label = "Base";
 			bindings = <
-			&kp B &kp Y &kp O &kp U &kp APOS                                              &kp SEMI &kp L &kp D &kp W &kp V
+			&kp B &kp Y &kp O &kp U &kp APOS                                  &kp SEMI &kp L &kp D &kp W &kp V
 			&lht LWIN C &lht LALT I &lht LCTRL E &lht LSHFT A &kp COMMA       &kp DOT  &rht RSHFT H &rht RCTRL T &rht RALT S &rht RWIN N
-			&kp G &kp X &kp J &kp K &kp MINUS                                             &kp FSLH &kp R &kp M &kp F &kp P
-			       &mo NUM &kp BACKSPACE                                                  &kp SPACE &mo SYM 
+			&kp G &kp X &kp J &kp K &kp MINUS                                 &kp FSLH &kp R &kp M &kp F &kp P
+			       &mo NUM &kp BACKSPACE                                      &kp SPACE &mo SYM 
 			>;
 		};
 
@@ -105,10 +105,10 @@
 		ext_layer {
 			label = "NUM";
 			bindings = <
-			&kp ESC  &none &kp PG_UP  &none  &kp C_PAUSE    	&kp Z  &kp N7 &kp N8 &kp N9 &kp N0
+			&kp ESC  &none &kp PG_UP  &none  &kp C_PAUSE    				&kp Z  &kp N7 &kp N8 &kp N9 &kp N0
 			&kp LC(A) &kp LC(S)  &kp PG_DN  &kp LC(F)  &kp LC(H) 			&kp EQUAL &kp N4 &kp N5 &kp N6 &kp MINUS
-			&kp LC(Z)  &kp LC(X) &kp LC(C) &kp LC(V)   &kp LC(Y)          &kp DOT &kp N1 &kp N2 &kp N3 &kp PLUS
-												&trans &trans    &kp ENTER  &mo FNC 
+			&kp LC(Z)  &kp LC(X) &kp LC(C) &kp LC(V)   &kp LC(Y)          	&kp DOT &kp N1 &kp N2 &kp N3 &kp PLUS
+												&trans &trans    			&kp ENTER  &mo FNC 
 			>;
 		};
 
@@ -116,9 +116,9 @@
 		mouse_layer {
 			label = "MOUSE";
 			bindings = <
-			&to BASE &msc SCRL_LEFT &mmv MOVE_UP &msc SCRL_RIGHT &none              &none &none &none &none &none 
-			&none    &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &none       &none &kp RIGHT_SHIFT &kp RIGHT_CONTROL &kp RIGHT_ALT &none
-			&none    &none        &msc SCRL_UP &msc SCRL_DOWN &none				&none &mkp LCLK &mkp MCLK &mkp RCLK &none
+			&to BASE &msc SCRL_LEFT &mmv MOVE_UP &msc SCRL_RIGHT &none 		&none &none &none &none &none 
+			&none    &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &none    &none &kp RIGHT_SHIFT &kp RIGHT_CONTROL &kp RIGHT_ALT &kp RWIN
+			&none    &none        &msc SCRL_UP &msc SCRL_DOWN &none			&none &mkp LCLK &mkp MCLK &mkp RCLK &none
 							  &to BASE &none              &none &to BASE 
 			>;
 		};
@@ -138,9 +138,9 @@
 		settings_layer {
 				label = "Sett.";
 				bindings = <
-				&bootloader &none &none &none &bt BT_SEL 0               &bt BT_SEL 3 &none &none &none &bootloader 
-				&studio_unlock &none &none &none      &bt BT_SEL 1 						  &bt BT_SEL 4 &none &none &none &studio_unlock
-				&bt BT_CLR &none &none &none      &bt BT_SEL 2               &bt BT_SEL 5 &none &none &none &none
+				&bootloader 	&none &none &none &bt BT_SEL 0              &bt BT_SEL 3 &none &none &none &bootloader 
+				&studio_unlock 	&none &none &none &bt BT_SEL 1				&bt BT_SEL 4 &none &none &none &studio_unlock
+				&bt BT_CLR 		&none &none &none &bt BT_SEL 2              &bt BT_SEL 5 &none &none &none &none
 										&none &none                         &none &none 
 				>;
 		};
@@ -149,10 +149,10 @@
 		gaming_layer {
 				label = "Game";
 				bindings = <
-				&kp TAB &kp Q &kp W &kp E &kp R               &kp B &kp Q &kp W &kp E &kp R 
+				&kp TAB &kp Q &kp W &kp E &kp R               	&kp B &kp Q &kp W &kp E &kp R 
 				&kp LSHFT &kp A &kp S &kp D &kp F  				&kp B &kp Q &kp W &kp E &kp R 
 				&kp LCTRL &kp Z &kp X &kp C &kp V               &kp B &kp Q &kp W &kp E &kp R 
-								&mo GAME2 &kp SPACE                         &none &to BASE 
+								&mo GAME2 &kp SPACE             &none &to BASE 
 				>;
 		};
 
@@ -162,7 +162,7 @@
 				bindings = <
 				&kp GRAVE &kp N1 &kp N2 &kp N3 &kp N4               &kp B &kp Q &kp W &kp E &kp R 
 				&kp LSHFT &kp T &kp G &kp B &kp N5  				&kp B &kp Q &kp W &kp E &kp R 
-				&kp ESC &kp J &kp I &kp M &kp N6               &kp B &kp Q &kp W &kp E &kp R 
+				&kp ESC &kp J &kp I &kp M &kp N6               		&kp B &kp Q &kp W &kp E &kp R 
 								&none &none                         &none &none 
 				>;
 		};
