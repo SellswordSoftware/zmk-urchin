@@ -27,9 +27,9 @@
 #define SCROLL_DOWN SCROLL_VERT(-U_MOUSE_SCROLL_MAX)
 
 &msc {
-  # acceleration-exponent = <1>;      // 0
+  // acceleration-exponent = <1>;      // 0
   time-to-max-speed-ms = <500>;      // 500
-  # delay-ms = <0>;                   // 10
+  // delay-ms = <0>;                   // 10
 };
 
 // Layer definitions
